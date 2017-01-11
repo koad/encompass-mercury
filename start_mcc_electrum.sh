@@ -204,7 +204,7 @@ def get_port(config, name):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--conf', metavar='path', default=None, help='specify a configuration file')
-    parser.add_argument('--coin', metavar='currency', default='wal', help='coin to run')
+    parser.add_argument('--coin', metavar='currency', default='MCC', help='coin to run')
     parser.add_argument('command', nargs='*', default=[], help='send a command to the server')
     args = parser.parse_args()
 

@@ -7,3 +7,4 @@ encompass-mercury.conf
 build/
 dist/
 *.egg-info/
+encompass-mercury-db/
